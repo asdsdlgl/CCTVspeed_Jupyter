@@ -1,15 +1,15 @@
 nfbCCTV-N5-S-21.048-M
-Total Train: 431
-Total test: 431
-Total val: 431
+Total Train: 417
+Total test: 417
+Total val: 417
 
 *Peak 1
 Stage 0
 Current MAE: 100.000
-New Train Length: 101
-New Test Length: 101
-New Val Length: 101
-Merge All MAE: 4.000
+New Train Length: 94
+New Test Length: 94
+New Val Length: 94
+Merge All MAE: 24.303
 State: Initial
 Frame Num: 50
 Left Hand Side
@@ -29,105 +29,31 @@ Test List: [18, 19]
 *Peak 2
 Stage 0
 Current MAE: 100.000
-New Train Length: 276
-New Test Length: 276
-New Val Length: 276
-Merge All MAE: 3.001
+New Train Length: 271
+New Test Length: 271
+New Val Length: 271
+Merge All MAE: 6.019
 State: Initial
 Frame Num: 50
 Left Hand Side
 Index: 3
 Stage 1
-Current MAE: 3.001
-New Train Length: 287
-New Test Length: 287
-New Val Length: 287
-Merge Test MAE: 3.090
-State: Stop merging
-Train List: [4, 5]
-Test List: [4, 5]
-
-Right Hand Side
-Index: 6
-Stage 2
-Current MAE: 3.001
-New Train Length: 281
-New Test Length: 281
-New Val Length: 281
-Merge Test MAE: 3.001
-State: Stop merging
-Train List: [4, 5]
-Test List: [4, 5]
-
-------------------
-Total predict: 377
-Total test: 431
-Total MAE: 3.284
-
-**********************
-
-nfbCCTV-N5-S-23.896-M
-Total Train: 434
-Total test: 434
-Total val: 434
-
-*Peak 1
-Stage 0
-Current MAE: 100.000
-New Train Length: 100
-New Test Length: 100
-New Val Length: 100
-Merge All MAE: 3.505
-State: Initial
-Frame Num: 50
-Left Hand Side
-Index: 17
-Stage 1
-Current MAE: 3.505
-New Train Length: 102
-New Test Length: 102
-New Val Length: 102
-Merge Test MAE: 3.528
-State: Stop merging
-Train List: [18, 19]
-Test List: [18, 19]
-
-Right Hand Side
-Index: 20
-No data!
-Train List: [18, 19]
-Test List: [18, 19]
-
-------------------
-
-*Peak 2
-Stage 0
-Current MAE: 100.000
-New Train Length: 286
-New Test Length: 286
-New Val Length: 286
-Merge All MAE: 2.352
-State: Initial
-Frame Num: 50
-Left Hand Side
-Index: 3
-Stage 1
-Current MAE: 2.352
-New Train Length: 292
-New Test Length: 292
-New Val Length: 292
-Merge Test MAE: 2.331
+Current MAE: 6.019
+New Train Length: 282
+New Test Length: 282
+New Val Length: 282
+Merge Test MAE: 5.874
 State: Add test -> 3
 Train List: [4, 5]
 Test List: [3, 4, 5]
 
 Index: 2
 Stage 2
-Current MAE: 2.331
-New Train Length: 299
-New Test Length: 305
-New Val Length: 305
-Merge Test MAE: 2.614
+Current MAE: 5.874
+New Train Length: 283
+New Test Length: 294
+New Val Length: 294
+Merge Test MAE: 6.106
 State: Stop merging
 Train List: [4, 5]
 Test List: [3, 4, 5]
@@ -135,19 +61,93 @@ Test List: [3, 4, 5]
 Right Hand Side
 Index: 6
 Stage 3
-Current MAE: 2.331
-New Train Length: 290
-New Test Length: 296
-New Val Length: 296
-Merge Test MAE: 2.331
+Current MAE: 5.874
+New Train Length: 276
+New Test Length: 287
+New Val Length: 287
+Merge Test MAE: 5.874
 State: Stop merging
 Train List: [4, 5]
 Test List: [3, 4, 5]
 
 ------------------
-Total predict: 392
-Total test: 434
-Total MAE: 2.898
+Total predict: 376
+Total test: 417
+Total MAE: 10.499
+
+**********************
+
+nfbCCTV-N5-S-23.896-M
+Total Train: 419
+Total test: 419
+Total val: 419
+
+*Peak 1
+Stage 0
+Current MAE: 100.000
+New Train Length: 92
+New Test Length: 92
+New Val Length: 92
+Merge All MAE: 25.121
+State: Initial
+Frame Num: 50
+Left Hand Side
+Index: 17
+Stage 1
+Current MAE: 25.121
+New Train Length: 94
+New Test Length: 94
+New Val Length: 94
+Merge Test MAE: 26.401
+State: Stop merging
+Train List: [18, 19]
+Test List: [18, 19]
+
+Right Hand Side
+Index: 20
+No data!
+Train List: [18, 19]
+Test List: [18, 19]
+
+------------------
+
+*Peak 2
+Stage 0
+Current MAE: 100.000
+New Train Length: 280
+New Test Length: 280
+New Val Length: 280
+Merge All MAE: 6.727
+State: Initial
+Frame Num: 50
+Left Hand Side
+Index: 3
+Stage 1
+Current MAE: 6.727
+New Train Length: 286
+New Test Length: 286
+New Val Length: 286
+Merge Test MAE: 6.983
+State: Stop merging
+Train List: [4, 5]
+Test List: [4, 5]
+
+Right Hand Side
+Index: 6
+Stage 2
+Current MAE: 6.727
+New Train Length: 284
+New Test Length: 284
+New Val Length: 284
+Merge Test MAE: 6.727
+State: Stop merging
+Train List: [4, 5]
+Test List: [4, 5]
+
+------------------
+Total predict: 372
+Total test: 419
+Total MAE: 11.641
 
 **********************
 
@@ -162,7 +162,7 @@ Current MAE: 100.000
 New Train Length: 89
 New Test Length: 89
 New Val Length: 89
-Merge All MAE: 4.382
+Merge All MAE: 4.458
 State: Initial
 Frame Num: 50
 Left Hand Side
@@ -185,37 +185,48 @@ Current MAE: 100.000
 New Train Length: 267
 New Test Length: 267
 New Val Length: 267
-Merge All MAE: 2.446
+Merge All MAE: 3.705
 State: Initial
 Frame Num: 50
 Left Hand Side
 Index: 3
 Stage 1
-Current MAE: 2.446
+Current MAE: 3.705
 New Train Length: 275
 New Test Length: 275
 New Val Length: 275
-Merge Test MAE: 2.543
+Merge Test MAE: 3.702
+State: Add test -> 3
+Train List: [4, 5]
+Test List: [3, 4, 5]
+
+Index: 2
+Stage 2
+Current MAE: 3.702
+New Train Length: 276
+New Test Length: 284
+New Val Length: 284
+Merge Test MAE: 3.904
 State: Stop merging
 Train List: [4, 5]
-Test List: [4, 5]
+Test List: [3, 4, 5]
 
 Right Hand Side
 Index: 6
-Stage 2
-Current MAE: 2.446
+Stage 3
+Current MAE: 3.702
 New Train Length: 270
-New Test Length: 270
-New Val Length: 270
-Merge Test MAE: 2.446
+New Test Length: 278
+New Val Length: 278
+Merge Test MAE: 3.702
 State: Stop merging
 Train List: [4, 5]
-Test List: [4, 5]
+Test List: [3, 4, 5]
 
 ------------------
-Total predict: 356
+Total predict: 364
 Total test: 409
-Total MAE: 4.292
+Total MAE: 5.334
 
 **********************
 
