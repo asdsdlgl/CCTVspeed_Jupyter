@@ -1,0 +1,12 @@
+nfbCCTV-N5-S-21.048-M
+Total Train: 431
+Total test: 431
+Total val: 431
+
+*Peak 1
+Frame Num: 50
+Train List: [1, 2, 3, 4, 5]
+Test List: [1, 2, 3, 4, 5, 6]
+Train Length: 610
+Test Length: 310
+Val Length: 310
